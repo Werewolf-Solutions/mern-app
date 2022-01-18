@@ -20,8 +20,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <input onChange={handleChange} id='text' value={text}></input><br/><br/>
-        <button onClick={setMessage}>set message</button><br/><br/>
+        <input
+          onChange={handleChange}
+          id='text' value={text}
+          style={{
+            height: "50px",
+            fontSize: 50
+          }}
+        ></input><br/>
+        <button
+          onClick={setMessage}
+          style={{height: "50px",fontSize: 35}}
+        >set message</button><br/>
         {msg}
       </header>
     </div>
