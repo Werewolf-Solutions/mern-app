@@ -1,9 +1,10 @@
 var express = require('express')
 var router = express.Router()
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource')
+/* POST user sets a message. */
+router.post('/set-message', (req, res, next) => {
+  let {text} = req.body
+  res.send({msg: text})
 })
 
 module.exports = router
