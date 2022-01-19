@@ -1,25 +1,58 @@
 # MERN app
 
-Mongo DB
+# Introduction
 
-Express
+This is a MERN stack template.
 
-React
+We made it to make the creation of new components easier.
 
-Nodejs
+Ideally to use when you have a new idea for a component for other apps that use a MERN stack environment but you don't want to create e new branch in the main project yet.
 
------
+# Requirements
 
-### npm start: production
+* Mongo DB
 
-### npm test-prod: test production
+* Express
 
-### npm run desktop: run only react app
+* React
 
-### npm run build-react: run npm run build for react app to create static files
+* Nodejs
 
-### npm run dev: run concurrently back-end + front-end
+# How to install
 
-# todo
+* git clone https://github.com/Werewolf-Solutions/mern-app.git
 
-1. fork mern-app to create e-commerce app
+* cd mern-app
+
+* npm install && cd public && npm install
+
+* connect your mongoDB (local or change .env with your credentials for production)
+
+# Scripts
+
+* npm start: production
+
+* npm test-prod: test production
+
+* npm run desktop: run only react app
+
+* npm run build-react: run npm run build for react app to create static files
+
+* npm run dev: run concurrently back-end + front-end
+
+# How to contribute
+
+* go on Telegram/Discord/Trello and see if anyone is working on what you want to work on
+
+* create new feature
+
+* work on existing feature
+
+* report a bug
+
+* open an issue
+
+* give an idea
+
+# Usage
+
